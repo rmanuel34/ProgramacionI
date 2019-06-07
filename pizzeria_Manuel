@@ -1,0 +1,45 @@
+Bienvenido_a_pizzeria_Manuel_Hernandez Bienvenido_a_pizzeria_Manuel_Hernandez
+pizzeria Manuel = ["pizza suprema", "pizza con piña", "pizza con champioñion", "pizza con jamon", "pizza con peperoni", "calsones", "pizza con doble queso", "pizza con doble queso y hongos", "deditos de pollo", "fresco l 1/4", "fresco 2l", "fresco 3l"]
+
+def imprimir_menu():
+	print("1 Mostrar Pizzeria Manuel")
+	print("2 eliminar pizzeria Manuel")
+	print("3 Agregar pizzeria Manuel")
+	print("4 Salir")
+	valor = input("ingrese el valor de la accion: ")
+	return valor
+
+
+def mostrar_pizzeria Manuel():
+	for pizzeria Manuel in pizerrias
+
+def eliminar_pizzeria Manuel():
+	pizerrias = []
+	
+def agregar_pizzeeria Manuel(valor_pizza):
+	pizerrias.append(valor_pizza)
+
+
+continuar = True
+
+while continuar:
+	#v_retornado = valor retornado
+	v_retornado = imprimir_menu()
+	if int(v_retornado) == 1:
+		for pizzeria Manuel in pizerrias Manuel
+			print(pizzeria Manuel])
+		elif int(v_retornado) == 2:
+			pizzeria = []
+		elif int(v_retornado) == 3:
+			valor = input("ingrese el pizzeria a agregar: ")
+			
+			
+			pizzeria.append(valor)
+		elif int(v_retornado) ==4:
+			continuar = False
+			
+		else:
+			print("opcion no controlada")
+			
+		
+
