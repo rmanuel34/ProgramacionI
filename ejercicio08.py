@@ -11,7 +11,8 @@ def imprimir_menu():
 	print("3 imprimir pedidos")
 	print("4 eliminar pedidos")
 	print("5 salir")
- 
+	print("0 alamcenar pedidos")
+
 	valor = int(input("Escriba el numero de la accion que desea realizar "))
 	return valor
 
@@ -67,5 +68,7 @@ while continuar:
 		eliminar_pedidos()
 	elif accion == 5:
 		continuar = False 
+	elif accion == 0:
+		almacenar()
 	else:
 		print("Accion desconocida ") 
